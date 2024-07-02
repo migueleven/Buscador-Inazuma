@@ -1,4 +1,4 @@
-# Buscador Inazuma: Ultimate ROM Hacking Tool
+** Buscador Inazuma: Ultimate ROM Hacking Tool **
 
 ## Description
 Buscador Inazuma is an advanced ROM hacking tool specifically designed for the Inazuma Eleven games on Nintendo DS. It facilitates the search of some files location at games such as 3D Models and Sprites.
@@ -24,10 +24,10 @@ You have two options for installation:
     - python main.py
 
 ## Features
-- Advanced search for events in Inazuma Eleven ROMs.
-- Decompression and editing of PAC and PKB files.
-- Visualization and modification of sprites and tiles.
-- Export changes to new ROM files.
+- Advanced search for models and sprites locations in Inazuma Eleven ROMs.
+- Compatible with IE1/IE2/IE3 games.
+- Supports modified ROMs.
+- Visualization of the selected character's sprite.
 
 ## Contributing
 Contributions are welcome! Follow these steps to contribute:
@@ -43,6 +43,7 @@ For questions or comments, you can contact me at:
 
 Email: miguelangelchamizosanchez@gmail.com
 Twitter: @migueleven20196
+Youtube: https://www.youtube.com/@Migueleven5
 
 ###Credits
 Migueleven: Main Deve
