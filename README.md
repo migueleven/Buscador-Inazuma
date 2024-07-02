@@ -1,4 +1,4 @@
-** Buscador Inazuma: Ultimate ROM Hacking Tool **
+**Buscador Inazuma: Ultimate ROM Hacking Tool**
 
 ## Description
 Buscador Inazuma is an advanced ROM hacking tool specifically designed for the Inazuma Eleven games on Nintendo DS. It facilitates the search of some files location at games such as 3D Models and Sprites.
