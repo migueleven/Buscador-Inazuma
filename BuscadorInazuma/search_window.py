@@ -20,7 +20,7 @@ class SearchWindow:
         self.window.protocol("WM_DELETE_WINDOW", lambda: self.back_to_main(self.window))
 
         # Establecer el icono de la aplicación
-        self.icon_path = os.path.join(self.main_app.image_dir, 'icono2.png')
+        self.icon_path = os.path.join(self.main_app.image_dir, 'icono.png')
         self.window.iconphoto(False, tk.PhotoImage(file=self.icon_path))
 
         self.canvas = tk.Canvas(self.window, width=1066, height=600)
@@ -38,8 +38,8 @@ class SearchWindow:
         self.listbox.bind('<<ListboxSelect>>', lambda event: on_select(event, self.listbox, self.text_area, characters, self.canvas, sprites_images))
 
         # Text widget para mostrar el texto correspondiente al nombre seleccionado
-        self.text_area = tk.Text(self.window, wrap=tk.WORD, width=45, height=20, borderwidth=2, relief="solid")
-        self.text_area.place(relx=0.815, rely=0.67, anchor='center')
+        self.text_area = tk.Text(self.window, wrap=tk.WORD, width=30, height=5, borderwidth=2, relief="solid")
+        self.text_area.place(relx=0.815, rely=0.47, anchor='center')
 
         # Entry para buscar nombres
         self.search_entry = tk.Entry(self.window, borderwidth=3, highlightthickness=0, width=28, bg='#ffffff')

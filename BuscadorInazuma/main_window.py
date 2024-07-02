@@ -24,11 +24,11 @@ class MainWindow:
         self.image_dir = os.path.join(script_dir, 'imagenes')
 
         # Establecer el icono de la aplicación
-        self.icon_path = os.path.join(self.image_dir, 'icono2.png')
+        self.icon_path = os.path.join(self.image_dir, 'icono.png')
         self.root.iconphoto(False, tk.PhotoImage(file=self.icon_path))
 
         # Crear el fondo
-        background_path = os.path.join(self.image_dir, 'logo2.png')
+        background_path = os.path.join(self.image_dir, 'logo.png')
         self.background_image = Image.open(background_path)
         self.bg_image = ImageTk.PhotoImage(self.background_image)
 
@@ -63,7 +63,7 @@ class MainWindow:
         self.btn_start_search.pack(side='right', padx=10)
 
         # Crear un Label separado para la imagen del copyright y colocarlo en la parte inferior
-        copy_path = os.path.join(self.image_dir, 'copy_image2.png')
+        copy_path = os.path.join(self.image_dir, 'copy_image.png')
         self.open_copy_image = Image.open(copy_path)
         self.copy_image = ImageTk.PhotoImage(self.open_copy_image)
         self.logo_copy = tk.Label(root, image=self.copy_image)
