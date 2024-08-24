@@ -40,7 +40,7 @@ Contributions are welcome! Follow these steps to contribute:
 ## Contact
 For questions or comments, you can contact me at:
 
-Email: miguelangelchamizosanchez@gmail.com
+Email: miguelangelchamizosanchez@gmail.com\n
 Twitter: @migueleven20196
 Youtube: https://www.youtube.com/@Migueleven5
 
