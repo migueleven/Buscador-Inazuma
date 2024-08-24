@@ -8,12 +8,11 @@ You have two options for installation:
 
 1. **Download the Executable:**
 
-  - You can download the executable from the repository in the Windows App folder.
-  - This is the easiest and fastest way to get started.
+  - You can download the executable from the repository in the Windows App folder, this is the easiest and fastest way to get started if you use Windows OS.
 
 2. **Run from Source Code:**
 
-  If you prefer to review the code for security reasons, you can run the project from the main branch.
+  If you prefer to review the code for security reasons, or have another OS you can run the project from the main branch.
 
   Clone the repository and install the dependencies:
     - git clone https://github.com/your_username/Buscador-Inazuma.git
