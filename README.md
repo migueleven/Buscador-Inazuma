@@ -20,7 +20,8 @@ You have two options for installation:
   - pip install -r requirements.txt
 
   Run the main script:
-    - python main.py
+  - python main.py
+  - If "python main.py" doesn't work try "python3 main.py" without ""
 
 ## Features
 - Advanced search for models and sprites locations in Inazuma Eleven ROMs.
