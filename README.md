@@ -15,9 +15,9 @@ You have two options for installation:
   If you prefer to review the code for security reasons, or have another OS you can run the project from the main branch.
 
   Clone the repository and install the dependencies:
-    - git clone https://github.com/your_username/Buscador-Inazuma.git
-    - cd Buscador-Inazuma
-    - pip install -r requirements.txt
+  - git clone https://github.com/your_username/Buscador-Inazuma.git
+  - cd Buscador-Inazuma
+  - pip install -r requirements.txt
 
   Run the main script:
     - python main.py
