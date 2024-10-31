@@ -16,12 +16,12 @@ You have two options for installation:
 
   Clone the repository and install the dependencies:
   - git clone https://github.com/your_username/Buscador-Inazuma.git
-  - cd Buscador-Inazuma
+  - cd Buscador-Inazuma-main
   - pip install -r requirements.txt
 
   Run the main script:
-  - python main.py
-  - If "python main.py" doesn't work try "python3 main.py" without ""
+  - python "BuscadorInazuma (Master)\main.py"
+  - If, python "BuscadorInazuma (Master)\main.py", doesn't work try, python3 "BuscadorInazuma (Master)\main.py"
 
 ## Features
 - Advanced search for models and sprites locations in Inazuma Eleven ROMs.
