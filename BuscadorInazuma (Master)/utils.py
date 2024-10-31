@@ -189,17 +189,17 @@ def on_select(event, listbox, text_area, characters, canvas, sprites_images):
 
         if selected_character.sprite == -1:
 
-            text_area.insert(tk.END, f"ID del personaje: {selected_character.id}\nSprite nº: No tiene\nModelo 3D nº: {selected_character.modelo_3d}\n\n")
+            text_area.insert(tk.END, f"ID del personaje: {selected_character.id}\nSprite nº: No tiene\n3D Model nº: {selected_character.modelo_3d}\n\n")
 
         elif selected_character.modelo_3d == -1:
 
-            text_area.insert(tk.END, f"ID: {selected_character.id}\nSprite nº: {selected_character.sprite}\nModelo 3D nº: No tiene\n\n")
+            text_area.insert(tk.END, f"ID: {selected_character.id}\nSprite nº: {selected_character.sprite}\n3D Model nº: No tiene\n\n")
 
             show_sprite_on_screen(selected_character.sprite, canvas, sprites_images)
 
         else:
 
-            text_area.insert(tk.END, f"ID: {selected_character.id}\nSprite nº: {selected_character.sprite}\nModelo 3D nº: {selected_character.modelo_3d}\n\n")
+            text_area.insert(tk.END, f"ID: {selected_character.id}\nSprite nº: {selected_character.sprite}\n3D Model nº: {selected_character.modelo_3d}\n\n")
 
             show_sprite_on_screen(selected_character.sprite, canvas, sprites_images)
     

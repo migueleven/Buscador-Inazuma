@@ -22,10 +22,10 @@ class MainWindow:
         script_dir = os.path.join(base_path)
 
         # Establecer la ruta de la carpeta de imágenes
-        self.image_dir = os.path.join(script_dir, 'imagenes')
+        self.image_dir = os.path.join(script_dir, 'images')
 
         # Establecer el icono de la aplicación
-        self.icon_path = os.path.join(self.image_dir, 'icono.png')
+        self.icon_path = os.path.join(self.image_dir, 'icon.png')
         self.root.iconphoto(False, tk.PhotoImage(file=self.icon_path))
 
         # Crear el fondo
@@ -93,11 +93,11 @@ class MainWindow:
 
             # Diccionario para mapear idCodes a mensajes
             self.idCode_messages = {
-                "YEES": "Juego seleccionado: Inazuma Eleven 1 (Castellano)",
-                "YEEP": "Juego seleccionado: Inazuma Eleven 1 (Inglés)",
-                "BEEP": "Juego seleccionado: Inazuma Eleven 2",
-                "BEES": "Juego seleccionado: Inazuma Eleven 2 (Encriptado)",
-                "BOEJ": "Juego seleccionado: Inazuma Eleven 3 (Ogro)"
+                "YEES": "Selected Game: Inazuma Eleven 1 (Spanish)",
+                "YEEP": "Selected Game: Inazuma Eleven 1 (English)",
+                "BEEP": "Selected Game: Inazuma Eleven 2",
+                "BEES": "Selected Game: Inazuma Eleven 2 (Encrypted)",
+                "BOEJ": "Selected Game: Inazuma Eleven 3 (Ogre)"
                 # Agrega otros idCodes y mensajes según sea necesario
             }
 

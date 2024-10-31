@@ -20,14 +20,14 @@ class SearchWindow:
         self.window.protocol("WM_DELETE_WINDOW", lambda: self.back_to_main(self.window))
 
         # Establecer el icono de la aplicación
-        self.icon_path = os.path.join(self.main_app.image_dir, 'icono.png')
+        self.icon_path = os.path.join(self.main_app.image_dir, 'icon.png')
         self.window.iconphoto(False, tk.PhotoImage(file=self.icon_path))
 
         self.canvas = tk.Canvas(self.window, width=1066, height=600)
         self.canvas.pack()
 
         # Añadir una imagen de fondo en la nueva ventana
-        search_background_path = os.path.join(self.main_app.image_dir, 'fondo3.png')  # Ruta a la imagen de fondo de la nueva ventana
+        search_background_path = os.path.join(self.main_app.image_dir, 'background.png')  # Ruta a la imagen de fondo de la nueva ventana
         self.search_background_image = Image.open(search_background_path)
         self.search_bg_image = ImageTk.PhotoImage(self.search_background_image)
         self.bg = self.canvas.create_image(0, 0, image=self.search_bg_image, anchor="nw")
